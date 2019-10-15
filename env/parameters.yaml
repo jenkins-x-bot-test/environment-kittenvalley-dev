@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:kittenvalley/adminUser:password
+  username: admin
+dashboardAuthID: vault:kittenvalley:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:kittenvalley:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:kittenvalley/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:kittenvalley/prow:hmacToken
